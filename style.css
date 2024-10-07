@@ -25,6 +25,11 @@ body {
     text-decoration: none;
 }
 
+ul li:first-child {
+    color: #7979eb;
+    font-size: larger;
+    padding: 20px 0px;
+}
 .underline {
     text-decoration: none;
     color: white;
@@ -139,26 +144,39 @@ body {
 .row-green {
     
     display: inline-block;
-    margin: auto;
-    height: 700px;
+    margin-bottom: 0px;
     text-align: center;
+
+}
+.row-light-coral div {
+    display: flex;
+}
+.row-light-coral{
+    width: 25%;
+    color: white;
+}
+.row-light-coral h1 {
+    color: #7979eb;
+    padding: 20px 0px;
+}
+.row-light-coral img {
+    line-height: 20px;
+    width: 30px;    
+    padding-right: 10px;
 }
 
-.row-light-coral {
-    background-color: lightcoral;
-    display: flex;
-    margin: auto;
-    width: 40%;
-    height: 500px;
+.fa-brands {
+    font-size: large;
+    margin-top: 10px; 
+    margin-right: 15px;
 }
 
 .row-light-blue {
-    background-color: lightskyblue;
+    color: white;
     display: flex;
     margin: auto;
     width: 15%;
     height: 500px;
-    border: dashed 1px white;
 }
 
 .bg-light-dark {
@@ -166,28 +184,56 @@ body {
 }
 
 .row-light-sky {
-    background-color: #00fff2;
+    
     display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: auto;
     padding: 10px 0 10px 0;
 }
-
-.bg-light-coral {
-    background-color: lightcoral;
+li {
+   margin: 15px;
+   font-weight: bolder
+}
+ul {
+    list-style: none;
 }
 
 .margin {
     margin-bottom: 20px;
+    margin: 0 auto;
+    width: 60%;
+    
 }
 
 .m-b25 {
     margin-bottom: 25px;
 }
 
+
 .h2-size {
     display: flex;
     display: block;
     font-size: larger;
+    margin-bottom: 40px;
+}
+
+.scarica2 {
+    background-color: #7979eb;
+    color: #ffffff;
+    width: 17%;
+    margin: 0 auto;
+}
+
+.scarica3 {
+    background-color: #7979eb;
+    color: #ffffff;
+    width: 10%;
+}
+
+.container2 {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
 }
